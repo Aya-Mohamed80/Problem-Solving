@@ -7,4 +7,13 @@ there will be the problems these i will solve at LeetCode.
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/Aya-Mohamed80/Problem-Solving/tree/master/0009-palindrome-number) |
+| [0412-fizz-buzz](https://github.com/Aya-Mohamed80/Problem-Solving/tree/master/0412-fizz-buzz) |
+## String
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/Aya-Mohamed80/Problem-Solving/tree/master/0412-fizz-buzz) |
+## Simulation
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/Aya-Mohamed80/Problem-Solving/tree/master/0412-fizz-buzz) |
 <!---LeetCode Topics End-->
