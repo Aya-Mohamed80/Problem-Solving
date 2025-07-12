@@ -1,0 +1,87 @@
+// problem 1
+/* 
+#include <bits/stdc++.h>
+using namespace std;
+int main() 
+{
+         int num1 =0 , num2 =0;
+         cout<<"enter the two numbers: ";
+         cin>>num1>>num2;
+         string s = (num1 == num2 ) ? "they are equal" : "they are not equal";
+         cout<<s<<endl;
+    return 0;
+}
+*/
+////////////////////////////////////
+// problem 2
+/*
+#include <bits/stdc++.h>
+using namespace std;
+int main() 
+{
+         int num =0;
+         cout<<"enter the number: ";
+         cin>>num;
+         string s = (num % 2 == 0 ) ? "even" : "odd";
+         cout<<s<<endl;
+         return 0;
+}
+*/
+/////////////////////////////////////
+// problem 3
+/*
+#include <bits/stdc++.h>
+using namespace std;
+int main() 
+{
+         int num =0;
+         cout<<"enter the number: ";
+         cin>>num;
+         string s = (num > 0 ) ? "positive" : ((num < 0 ) ?"negative":"Zero");
+         cout<<s<<endl;
+         return 0;
+}
+*/
+////////////////////////////////////
+// problem 4
+/*
+#include <bits/stdc++.h>
+using namespace std;
+int main() 
+{
+         int day =0;
+         cout<<"enter the number of day: ";
+         cin>>day;
+
+         if (day == 1)
+                  cout<<"saturday"<<endl;
+         else if (day == 2)
+                  cout<<"sunday"<<endl;
+         else if (day == 3)
+                  cout<<"monday"<<endl;
+         else if (day == 4)
+                  cout<<"tuesday"<<endl;
+         else if (day == 5)
+                  cout<<"wednesday"<<endl;
+         else if (day == 6)
+                  cout<<"thursday"<<endl;
+         else
+                  cout<<"friday"<<endl;
+     return 0;
+}
+*/
+//////////////////////////////////
+// problem 5
+/*
+#include <bits/stdc++.h>
+using namespace std;
+int main() 
+{
+         int num1 = 0 , num2 = 0;
+         cout<<"enter the two numbers: ";
+         cin>>num1>>num2;
+         string s = (num1 > num2 ) ? "the max number is number 1 : "+to_string(num1) : "the max number is number 2: "+to_string(num2);
+         cout<<s<<endl;
+         return 0;
+}
+*/
