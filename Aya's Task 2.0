@@ -1,0 +1,39 @@
+//Problem 1: if , else if decision making → “geeksforgeeks”
+
+class Solution 
+{
+  public:
+    string compareFive(int n) 
+    {
+        if(n > 5)
+            return "Greater than 5";
+        else if(n < 5)
+            return "Less than 5";
+        else
+            return "Equal to 5";
+    }
+};
+
+
+
+//                             ------------------------------------------------------
+
+//Problem 2: calculate the Rank
+
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int rank = 0;
+
+    cout << "Enter the rank: ";
+    cin >> rank;
+
+    cout << ((rank >= 80) ? "Excellent" : 
+             (rank >= 70) ? "Very Good" : 
+             (rank >= 50) ? "Good" : "Fail");
+
+    return 0;
+}
+
+//                    ---------------------------------------------------------------- 
