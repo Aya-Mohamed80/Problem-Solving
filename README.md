@@ -15,6 +15,7 @@ there will be the problems these i will solve at LeetCode.
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Aya-Mohamed80/Problem-Solving/tree/master/0013-roman-to-integer) |
+| [0020-valid-parentheses](https://github.com/Aya-Mohamed80/Problem-Solving/tree/master/0020-valid-parentheses) |
 | [0412-fizz-buzz](https://github.com/Aya-Mohamed80/Problem-Solving/tree/master/0412-fizz-buzz) |
 ## Simulation
 |  |
@@ -39,4 +40,8 @@ there will be the problems these i will solve at LeetCode.
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Aya-Mohamed80/Problem-Solving/tree/master/0204-count-primes) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Aya-Mohamed80/Problem-Solving/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
