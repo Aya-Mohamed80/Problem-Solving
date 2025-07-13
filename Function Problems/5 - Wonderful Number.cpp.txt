@@ -1,0 +1,37 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+string bin_str(int n) 
+{
+    string ch;
+    while (n > 0) 
+    {
+        ch += (n % 2) + '0';  
+        n /= 2;
+    }
+    return ch;
+}
+
+bool palindrome(int n) 
+{
+    string ch = bin_str(n);
+    int l = ch.size();
+    string ch2;
+    for (int i = l - 1; i >= 0; i--) 
+        ch2 += ch[i]; 
+
+    return ch == ch2;
+}
+
+int main() 
+{
+    int x;
+    cin >> x;
+
+    if (x % 2 != 0 && palindrome(x))
+        cout << "YES";
+    else
+        cout << "NO";
+
+    return 0;
+}
