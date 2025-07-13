@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+void GCD(long long a, long long b)
+{
+    long long m = 0, i = 1;
+     for ( ; i <= max(a, b); i++)
+        {
+            if (a % i == 0 && b % i == 0)
+                m = max(m, i);
+        }
+        cout << m << endl;
+}
+int main()
+{
+    long long a = 0, b = 0;
+    cin >> a >> b;
+    GCD(a, b);
+    return 0;
+}
